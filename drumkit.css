@@ -1,0 +1,11 @@
+html {
+    margin: 0;
+}
+
+.drumset {
+    display: block;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
