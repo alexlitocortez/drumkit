@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
+
 html {
     margin: 0;
 }
@@ -9,3 +11,58 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.main-wrapper {
+    margin: 30px auto 0;
+    width: 1080px;
+    text-align: center;
+}
+
+.key-legend {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.key-map-list {
+    list-style: none;
+    text-align: left;
+}
+
+.key-code {
+    color: #444;
+    background-color: #eaeaea;
+    font-size: 1.25em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 3px solid #aaa;
+}
+
+.key-sound {
+    font-size: 1.2em;
+    margin-left: 10px;
+    font-family: 'Handlee', cursive;
+    vertical-align: middle;
+}
+
+.key {
+    display: inline-block;
+    transition: all ease-in-out .042s;
+    background: #eaeaea;
+    height: 50px;
+    width: 32px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    border: 3px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .65);
+}
+
+.key.snare {
+    right: 145px;
+    top: 280px;
+}
+
+
+/* Guide */
+
+
