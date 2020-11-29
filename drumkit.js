@@ -1,20 +1,21 @@
 
-// 1. Just make sure when keydown the button transforms
+window.addEventListener('keydown', function(e) {
+	const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+	const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+	if (!audio) return; //"if no audio, then it returns which means execution of the function is stopped"
+	audio.currentTime = 0; //Makes it so the sound gets repeated faster
+	audio.play();
+	console.log(key);
+	key.classList.add('playing');
+});
 
-const jep = document.getElementById('yes');
-
-// figure out how to transform like
-// now add how to change it back
-
-// then figure out how
-
-window.addEventListener('keydown', logKey);
-
-function logKey(e) {
-	e.style.transform = `rotate(0deg) scale(1.5)`;
+function removeTransition(e) {
+	if(e.propertyName !== 'transform') return; //skip if it's not a transform
+	this.classList.remove('playing');
 }
 
-
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 
 
