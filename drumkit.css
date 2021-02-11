@@ -118,3 +118,163 @@ html {
 .hihat-open {
     margin-right: 40px;
 }
+
+/* Media Queries */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .tom-mid {
+        position: absolute;
+        left: 240px;
+    }
+
+    .kick {
+        position: absolute;
+        left: 390px;
+    }
+
+    .kick2 {
+        position: absolute;
+        left: 350px;
+    }
+
+    .ride {
+        position: absolute;
+        left: 300px;
+    }
+
+    .crash {
+        position: absolute;
+        left: 302px;
+    }
+
+    .snare {
+        position: absolute;
+        left: 560px;
+    }
+
+    .tom-high {
+        position: absolute;
+        left: 480px;
+    }
+
+    .hihat-open {
+        position: absolute;
+        left: 650px;
+    }
+
+    .hihat-close {
+        position: absolute;
+        left: 685px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 991px) {
+    .key-legend {
+        width: 800px;
+    }
+
+    .tom-mid {
+        position: absolute;
+        left: 130px;
+    }
+
+    .ride {
+        position: absolute;
+        left: 200px;
+    }
+
+    .crash {
+        position: absolute;
+        left: 200px;
+    }
+
+    .ride {
+        position: absolute;
+        
+    }
+
+    .kick {
+        position: absolute;
+        left: 287px;
+    }
+
+    .kick2 {
+        position: absolute;
+        left: 250px;
+    }
+
+    .tom-high {
+        position: absolute;
+        left: 400px;
+    }
+
+    .snare {
+        position: absolute;
+        left: 470px;
+    }
+
+    .hihat-open {
+        position: absolute;
+        left: 550px;
+    }
+
+    .hihat-close {
+        position: absolute;
+        left: 588px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+    .key-legend {
+        width: 300px;
+    }
+
+    .snare {
+        position: absolute;
+        left: 320px;
+    }
+
+    .hihat-open {
+        position: absolute;
+        left: 400px;
+    }
+
+    .hihat-close {
+        position: absolute;
+        left: 440px;
+    }
+
+    .kick2 {
+        position: absolute;
+        left: 90px;
+    }
+
+    .kick {
+        position: absolute;
+        left: 127px;
+    }
+
+    .tom-mid {
+        position: absolute;
+        left: 0;
+    }
+
+    .ride {
+        position: absolute;
+        left: 90px;
+    }
+
+    .crash {
+        position: absolute;
+        left: 88px;
+    }
+
+    .tom-high {
+        position: absolute;
+        left: 210px;
+    }
+}
+
+
+
+
